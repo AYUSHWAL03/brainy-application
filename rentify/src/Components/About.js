@@ -12,7 +12,7 @@ const About = () => {
                 <motion.button type="button" className="btn btn-primary rounded-2" whileTap={{scale:1.03}}>Discover More</motion.button>
               </div>
             <div className="col-lg-1"></div>
-            <motion.div className="col-lg-4 mt-5" data-aos="fade-right" whileHover={{y:-7}}>
+            <motion.div className="col-lg-4 mt-5" data-aos="fade-right" whileHover={{y:-7,transition:{duration:0.1}}}>
               <img src="images/car-about.jpg" alt="" width="100%" height="100%"/>
             </motion.div>
             

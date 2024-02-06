@@ -2,7 +2,7 @@ import React from 'react'
 
 const Talk = () => {
   return (
-    <div className="mt-5 container-fluid contact-bg d-flex align-items-center text-center" data-aos="fade-up" data-aos-duration="1000">
+    <div className="mt-5 container-fluid contact-bg d-flex align-items-center text-center text-white" data-aos="fade-up" data-aos-duration="1000">
       <div className="container content">
         <h4>Contact Us</h4>
         <h2>Lorem, ipsum dolor.</h2>

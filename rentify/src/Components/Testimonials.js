@@ -5,13 +5,13 @@ const Testimonials = () => {
     
     <div className="container  mt-5">
       
-      <div className="content p-3 text-center" data-aos="fade-up">
+      <div className="content p-3 text-center text-white" data-aos="fade-up">
         <h3>Testimonials</h3>
         <i>Lorem ipsum dolor sit amet consectetur.</i>
       </div>
       <div className="testimonials">
         <div className="row mt-5">
-          <motion.div className="col-lg-3 col-sm-12 mt-5" data-aos="flip-up" whileHover={{y:-7}}>
+          <motion.div className="col-lg-3 col-md-4 col-sm-12 mt-5" data-aos="flip-up" whileHover={{y:-7,transition:{duration:0.1}}}>
             <div
               className="position-relative mb-3 "
               style={{ width: "100%", height: "270px" }}
@@ -30,7 +30,7 @@ const Testimonials = () => {
             </div>
           </motion.div>
 
-          <motion.div className="col-lg-3 col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="1000" whileHover={{y:-7}}>
+          <motion.div className="col-lg-3 col-md-4 col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="1000" whileHover={{y:-7,transition:{duration:0.1}}}>
             <div
               className="position-relative mb-3 "
               style={{ width: "100%", height: "270px" }}
@@ -48,7 +48,7 @@ const Testimonials = () => {
             </div>
           </motion.div>
 
-          <motion.div className="col-lg-3 col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="1500" whileHover={{y:-7}}>
+          <motion.div className="col-lg-3 col-md-4  col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="1500" whileHover={{y:-7,transition:{duration:0.1}}}>
             <div
               className="position-relative mb-3 "
               style={{ width: "100%", height: "270px" }}
@@ -66,7 +66,7 @@ const Testimonials = () => {
             </div>
           </motion.div>
 
-          <motion.div className="col-lg-3 col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="2000" whileHover={{y:-7}}>
+          <motion.div className="col-lg-3 col-md-4 col-sm-12 mt-5" data-aos="flip-up" data-aos-duration="2000" whileHover={{y:-7,transition:{duration:0.1}}}>
             <div
               className="position-relative mb-3 "
               style={{ width: "100%", height: "270px" }}

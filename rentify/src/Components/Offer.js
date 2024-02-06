@@ -25,7 +25,7 @@ const Offer = (props) => {
               className="card border-0 mt-5"
               style={{ backgroundColor: "grey" }} 
               data-aos="flip-up"
-              whileHover={{y:-7}}
+              whileHover={{y:-7,transition:{duration:0.1}}}
             >
               <div
                 className="card-img bg-white"
@@ -61,7 +61,7 @@ const Offer = (props) => {
               style={{ backgroundColor: "grey" }}
               data-aos="flip-up"
               data-aos-duration="500"
-              whileHover={{y:-7}}
+              whileHover={{y:-7,transition:{duration:0.1}}}
             >
               <div
                 className="card-img bg-white"
@@ -97,7 +97,7 @@ const Offer = (props) => {
               style={{ backgroundColor: "grey" }}
               data-aos="flip-up"
               data-aos-duration="1000"
-              whileHover={{y:-7}}
+              whileHover={{y:-7,transition:{duration:0.1}}}
             >
               <div
                 className="card-img bg-white"
