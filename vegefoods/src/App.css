@@ -48,11 +48,21 @@
   z-index: 5;
 }
 @media (max-width: 650px) {
-  .about, .features, .products, .review, .blog, .footer, .visit {
-    width: 105%;
+  .about, .features, .products, .review, .blog {
+    width: 100%;
     height: 100%;
     margin-left: 0;
     text-align: center;
+    padding-right: 0px;
+    padding-left: 110px;
+  }
+  .footer{
+    width: 110%;
+    padding-left: 10px !important;
+  }
+  .visit{
+    width: 100%;
+    margin-left: 35px;
   }
   .navbar {
     width: 100%;
@@ -70,34 +80,7 @@
     margin-left: 0;
   }
 }
-@media (max-width: 520px) {
-  body{
-    overflow-x: hidden;
-  }
-  .about, .features, .products, .review, .blog, .visit {
-    width: 113%;
-    height: 100%;
-    margin-left: 0;
-    text-align: center;
-  }
 
-  .navbar {
-    width: 100%;
-    z-index: 5;
-  }
-  .footer{
-    width: 120%;
-  }
-  .hero-section {
-    width: 120%;
-    height: 100vh;
-    
-  }
-  .hero {
-    width: 100%; /* Adjusted width to 100% */
-    margin-left: 0;
-  }
-}
 
 .products img:hover{
   transition: all 0.5s ease;
