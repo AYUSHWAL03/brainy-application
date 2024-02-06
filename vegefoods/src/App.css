@@ -47,24 +47,58 @@
   width: 100%;
   z-index: 5;
 }
-@media only screen and (max-width:650px){
-  .about,.features,.products, .review, .blog, .footer {
-      width: 100%;
-      height:100%;
-      margin-left: 0;
+@media (max-width: 650px) {
+  .about, .features, .products, .review, .blog, .footer, .visit {
+    width: 105%;
+    height: 100%;
+    margin-left: 0;
+    text-align: center;
   }
-  .navbar{
+  .navbar {
     width: 100%;
     z-index: 5;
   }
-  .hero-section{
-    width: 100dvw;
-    height:100dvh;
-    background-image: url(./Components/images/hero2.jpg);
-    background-size:cover;
+  .hero-section {
+    width: 110%;
+    height: 100vh;
+    /* background-image: url(./Components/images/hero2.jpg);
+    background-size: cover; */
     /* background-size: 100%; */
   }
+  .hero {
+    width: 100%; /* Adjusted width to 100% */
+    margin-left: 0;
+  }
 }
+@media (max-width: 520px) {
+  body{
+    overflow-x: hidden;
+  }
+  .about, .features, .products, .review, .blog, .visit {
+    width: 113%;
+    height: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar {
+    width: 100%;
+    z-index: 5;
+  }
+  .footer{
+    width: 120%;
+  }
+  .hero-section {
+    width: 120%;
+    height: 100vh;
+    
+  }
+  .hero {
+    width: 100%; /* Adjusted width to 100% */
+    margin-left: 0;
+  }
+}
+
 .products img:hover{
   transition: all 0.5s ease;
   transform: scale(1.2);
