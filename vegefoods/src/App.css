@@ -1,0 +1,71 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-section{
+  width: 100%;
+  height:100vh;
+  background-image: url(./Components/images/hero2.jpg);
+  background-size:cover;
+}
+.hero{
+  width: 30%;
+  margin-left: 10%;
+}
+.hero-btn{
+  transition: color 0.2s, transform 0.2s;
+}
+.hero-btn:hover{
+  color: white;
+  transform: scale(1.05,1.05);
+}
+.nav-link-effect{
+  text-decoration: none;
+  color: white;
+  padding: 6px 10px;
+  transition: all 0.1s ease;
+}
+.nav-link-effect:hover{
+  border-bottom: 2px solid #f9d64b;
+}
+.hero-img{
+  
+  transition: transform 0.1s ;
+}
+.hero-img:hover{
+  transform: scale(1.05,1.05);
+}
+.about, .features, .products, .review,.blog{
+  width: 100%;
+  height: 80%;
+  z-index: 0;
+}
+.navbar{
+  width: 100%;
+  z-index: 5;
+}
+@media only screen and (max-width:650px){
+  .about,.features,.products, .review, .blog, .footer {
+      width: 100%;
+      height:100%;
+      margin-left: 0;
+  }
+  .navbar{
+    width: 100%;
+    z-index: 5;
+  }
+  .hero-section{
+    width: 100dvw;
+    height:100dvh;
+    background-image: url(./Components/images/hero2.jpg);
+    background-size:cover;
+    /* background-size: 100%; */
+  }
+}
+.products img:hover{
+  transition: all 0.5s ease;
+  transform: scale(1.2);
+}
