@@ -1,0 +1,43 @@
+.nav-link-ele{
+    margin: 0 5px;
+    padding: 0 5px;
+    font-size: 1.5rem !important;
+    transition: all 0.5s ease;
+}
+.nav-link-ele:hover{
+    border-bottom: 2px solid #FFC47E;
+}
+#about, #team {
+    width: 100%; /* Adjust to the desired width */
+    /* padding-left: 25px; Optional: Add some padding to the left and right */
+    padding-right: 15px;
+}
+@media (580<=width<=750) {
+    .card{
+        margin: 2rem;
+    }
+}
+@media (max-width:770px) {
+    body{
+        overflow-x: hidden;
+    }
+    .card{
+        margin: 2rem;
+    }
+    .img-responsive{
+        width: 100%;
+    }
+    #about, #team {
+        width: 100%; /* Adjust to the desired width */
+        padding-left: 25px; /* Optional: Add some padding to the left and right */
+        padding-right: 75px;
+    }
+
+    
+    .about-info, .team-thumb {
+        /* Add your styles here */
+    }
+}
+/* .nav-link-ele:last-child:hover{
+    border: none;
+} */
