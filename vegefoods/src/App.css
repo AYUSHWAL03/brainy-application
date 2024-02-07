@@ -49,7 +49,7 @@
 }
 @media (max-width: 650px) {
   .about, .features, .products, .review, .blog {
-    width: 100%;
+    width: 677px;
     height: 100%;
     margin-left: 0;
     text-align: center;
@@ -57,11 +57,12 @@
     padding-left: 110px;
   }
   .footer{
-    width: 110%;
-    padding-left: 10px !important;
+    width: 690px;
+    padding-left: 3px !important;
+    margin-left: 12px;
   }
   .visit{
-    width: 100%;
+    width: 650px;
     margin-left: 35px;
   }
   .navbar {
@@ -69,7 +70,7 @@
     z-index: 5;
   }
   .hero-section {
-    width: 110%;
+    width: 700px;
     height: 100vh;
     /* background-image: url(./Components/images/hero2.jpg);
     background-size: cover; */
