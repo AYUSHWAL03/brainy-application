@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const TravelsLogin = () => {
   return (
     <>
@@ -34,9 +34,9 @@ const TravelsLogin = () => {
               />
             </div>
             <div className="form-group p-0 d-flex justify-content-end">
-              <button type="submit" className="btn rounded-2 px-3 mr-2">
+              <motion.button type="submit" className="btn rounded-2 px-3 mr-2" whileHover={{y:-2,scale:1.1,color:'red'}}>
                 Login
-              </button>
+              </motion.button>
             </div>
           </form>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 const SearchBusBox = () => {
   return (
     <>
-      <div class="card p-2">
+      <motion.div class="card p-2" whileHover={{y:-4 ,transition:{duration:0.1},boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}} data-aos="flip-up" data-aos-duration="1000">
         <div class="row">
           <div
             class="imagebus col-4"
@@ -26,7 +26,7 @@ const SearchBusBox = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

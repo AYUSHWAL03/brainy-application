@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="container h-100 mb-4">
-        <div className="card bg-danger col-md-8 ml-auto mr-auto p-0 pb-2 pr-2 pl-2 m-0">
+        <div className="card bg-danger col-lg-6 col-10 col-sm-10 ml-auto mr-auto p-0 pb-2 pr-2 pl-2 m-0">
           <div className="card-header bg-white text-danger m-0">
             <h1 className="login-head">Contact US</h1>
           </div>
@@ -49,9 +49,9 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="form-group p-0 d-flex justify-content-end">
-              <button type="submit" className="btn rounded-2 px-3 mr-2">
+              <motion.button type="submit" className="btn rounded-2 px-3 mr-2" whileHover={{y:-2,scale:1.1,color:'red'}}>
                 Contact
-              </button>
+              </motion.button>
             </div>
           </form>
         </div>

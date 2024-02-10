@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {motion} from "framer-motion"
 const Login = () => {
   return (
     <>
       <div class="container">
-        <div class="card bg-danger col-md-4 ml-auto mr-auto p-0 pb-2 pr-2 pl-2 m-0">
+        <div class="card bg-danger col-lg-6 col-10 col-sm-10 ml-auto mr-auto p-0 pb-2 pr-2 pl-2 m-0">
           <div class="card-header bg-white text-danger m-0">
             <h1 class="login-head">Customer Login</h1>
           </div>
@@ -34,9 +34,11 @@ const Login = () => {
                 id="pwd"
               />
             </div>
-            <button type="submit" class="btn">
-              Login
-            </button>
+            <div className="form-group p-0 d-flex justify-content-end">
+              <motion.button type="submit" className="btn rounded-2 px-3 mr-2" whileHover={{y:-2,scale:1.1,color:'red'}}>
+                Login
+              </motion.button>
+            </div>
           </form>
           <div class="text-white">
             Don't have an account{" "}

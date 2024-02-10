@@ -10,12 +10,12 @@ const SearchBus = () => {
             <div class="row">
               <div class="form-group col-md-4">
                 <label class="text-white" for="form">
-                  Form :
+                  From :
                 </label>
                 <input
                   type="text"
                   class="form-control form-input"
-                  placeholder=" Form"
+                  placeholder=" From"
                   id="form"
                 />
               </div>
@@ -50,7 +50,7 @@ const SearchBus = () => {
           </form>
         </div>
 
-        <div class="mt-5">
+        <div class="mt-2">
           <div class="row mt-2">
             <div class="col-4">
               <SearchBusBox />
