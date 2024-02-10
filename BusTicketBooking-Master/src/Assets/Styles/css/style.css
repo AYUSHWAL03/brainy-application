@@ -1,0 +1,140 @@
+.nav-link {
+  padding: 5px 10px 5px 10px !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.nav-link:hover {
+  /* background-color: white; */
+  border-bottom: 2px solid white !important;
+  transform: translateY(-2px);
+  color: white !important;
+}
+.dropdown-menu {
+  padding: 0;
+}
+.dropdown-item {
+  padding: 5px 10px 5px 10px !important;
+  color: white !important;
+}
+.dropdown-item:hover {
+  background-color: white;
+  color: #dc4535 !important;
+}
+
+/* customer login */
+
+.login-head {
+  font-family: Fantasy;
+}
+.form-input {
+  border: 0px;
+  background-color: transparent;
+  transition: all 0.3s  ;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.form-input::placeholder {
+  color: white;
+}
+.form-input:focus {
+  outline: 0px none !important;
+  border: 2px solid white;
+  background-color: transparent;
+  width: 70%;
+  color: white;
+}
+.btn {
+  background-color: white !important;
+  color: #dc4535;
+  border: solid #dc4535;
+}
+.btn:hover {
+  background-color: #dc4535 !important;
+  color: white;
+  border: solid #dc4535;
+  padding: 0.5rem 1rem ;
+}
+.forma {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.forma:hover {
+  background-color: white;
+  color: #dc4535;
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* data table */
+
+#myTable_filter label {
+  color: #dc4535 !important;
+}
+#myTable_filter input {
+  border: 2px solid #dc4535;
+}
+#myTable_length label {
+  color: #dc4535 !important;
+}
+#myTable_length select {
+  color: #dc4535 !important;
+}
+#myTable_info {
+  color: #dc4535 !important;
+}
+#myTable_paginate {
+  color: #dc4535 !important;
+}
+#myTable_previous {
+  color: #dc4535 !important;
+}
+#myTable_next {
+  color: #dc4535 !important;
+}
+
+/* home */
+.homebuscard:hover {
+  opacity: 1 !important;
+  /* height: 110% !important; */
+  /* padding: 50px; */
+}
+
+/* set */
+.bussetprint {
+  background-color: #dc3545;
+}
+
+.card{
+  height: fit-content;
+}
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* height: 50px; */
+  background-color: red;
+  color: white;
+}
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 8px 7px 5px 12px ;
+    color: white !important;
+    align-content: center;
+    transition: all 0.4s ease;
+    /* cursor: pointer; */
+  }
+  .nav-link:hover {
+    background-color: white;
+    /* border-bottom: 2px solid white !important; */
+    transform: translateY(-2px);
+    color: #dc4535 !important;
+  }
+}
